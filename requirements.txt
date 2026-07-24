@@ -11,3 +11,4 @@ requests
 joblib
 pytest
 ruff
+streamlit==1.55.0
