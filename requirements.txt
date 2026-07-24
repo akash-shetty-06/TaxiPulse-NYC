@@ -6,7 +6,6 @@ xgboost
 matplotlib
 seaborn
 plotly
-streamlit
 requests
 joblib
 pytest
