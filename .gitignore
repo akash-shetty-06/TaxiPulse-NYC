@@ -1,0 +1,29 @@
+# Virtual environment
+.venv/
+
+# Python-generated files
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+
+# Jupyter temporary files
+.ipynb_checkpoints/
+
+# Private settings
+.env
+.vscode/
+
+# Large datasets and trained models
+data/raw/*
+data/processed/*
+models/*
+
+# Keep empty data and model folders
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!models/.gitkeep
+
+# Windows files
+Thumbs.db
+Desktop.ini
